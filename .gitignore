@@ -1,0 +1,12 @@
+# Ignore RStudio development files
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+
+# Ignore built website
+docs
+
+# Ignore scripts in the top-level directory
+/*.R
+/*.r

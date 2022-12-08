@@ -1,0 +1,23 @@
+url: https://mojaveazure.github.io/mamisc/
+destination: docs
+
+template:
+  params:
+    bootswatch: flatly
+
+development:
+  mode: auto
+
+reference:
+  - title: Color Theory
+    contents:
+    - has_concept("color_theory")
+  - title: Shiny Helpers
+    contents:
+    - has_concept("shiny")
+  - title: Roxygen2 Helpers
+    contents:
+      - has_concept("roxygen")
+  - title: Unsorted
+    contents:
+      - lacks_concepts(c("color_theory", "shiny"))
