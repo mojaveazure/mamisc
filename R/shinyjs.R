@@ -1,3 +1,8 @@
+#' @include zzz.R
+#'
+NULL
+
+
 #' Hide Shiny Tabs with \pkg{ShinyJS}
 #'
 #' @inheritParams js_tab_key

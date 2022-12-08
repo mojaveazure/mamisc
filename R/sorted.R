@@ -1,3 +1,8 @@
+#' @include zzz.R
+#'
+NULL
+
+
 #' Keyed Ordering Permutation
 #'
 #' @inheritParams base::order

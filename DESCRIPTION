@@ -28,13 +28,14 @@ Enhances:
     shiny,
     shinyjs
 Collate:
-    'collections.R'
     'zzz.R'
+    'collections.R'
     'color_theory.R'
+    'is.R'
     'pkg.R'
     'roxygen.R'
     'shinyjs.R'
     'sorted.R'
+    'strings.R'
 Config/Needs/website:
     pkgdown
-

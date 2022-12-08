@@ -1,3 +1,8 @@
+#' @include zzz.R
+#'
+NULL
+
+
 #' Rdocumentation Itemized List
 #'
 #' Generate an Rdocumentation itemized list
@@ -49,15 +54,16 @@ rd_required_pkgs <- function(x, multiple = FALSE) {
     x,
     '}}'
   )
-  if (length(x = url) > 2L) {
-    url <- c(
-      paste0(paste(url[1:length(x = url) - 1L], collapse = ', '), ','),
-      url[length(x = url)]
-    )
-  }
-  if (length(x = url) == 2L) {
-    url <- paste(url, collapse = ' and ')
-  }
+  url <- oxford(url, cnj = 'and', quote = 'none')
+  # if (length(x = url) > 2L) {
+  #   url <- c(
+  #     paste0(paste(url[1:length(x = url) - 1L], collapse = ', '), ','),
+  #     url[length(x = url)]
+  #   )
+  # }
+  # if (length(x = url) == 2L) {
+  #   url <- paste(url, collapse = ' and ')
+  # }
   return(paste(
     ifelse(
       test = isTRUE(x = multiple),

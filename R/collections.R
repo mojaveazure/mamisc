@@ -1,3 +1,20 @@
+#' @include zzz.R
+#'
+NULL
+
+#' Interleave vectors together
+#'
+#' @param ... Vectors to be interleaved
+#'
+#' @return A vector with the values from each vector in ... interleaved
+#'
+#' @export
+#'
+interleave <- function(...) {
+  return(as.vector(x = t(x = as.data.frame(x = list(...)))))
+}
+
+
 #' Generate a powerset
 #'
 #' @param x A list or vector of values to generate all possible combinations of
