@@ -9,8 +9,6 @@ NULL
 #'
 #' @return A character vector with all imported packages
 #'
-#' @importFrom rprojroot find_package_root_file
-#'
 #' @keywords internal
 #'
 #' @export
