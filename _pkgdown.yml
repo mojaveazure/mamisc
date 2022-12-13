@@ -20,4 +20,4 @@ reference:
       - has_concept("roxygen")
   - title: Unsorted
     contents:
-      - lacks_concepts(c("color_theory", "shiny"))
+      - lacks_concepts(c("color_theory", "shiny", "roxygen"))
