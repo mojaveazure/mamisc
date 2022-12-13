@@ -44,6 +44,7 @@ color <- switch(
 <!-- badges: start -->
 [![Lifecycle](https://img.shields.io/badge/lifecycle-`r stage`-`r color`.svg)](`r github.url`)
 [![CRAN Version](https://www.r-pkg.org/badges/version/`r pkg`)](https://cran.r-project.org/package=`r pkg`)
+[![R-universe status badge](https://mojaveazure.r-universe.dev/badges/`r pkg`)](https://mojaveazure.r-universe.dev)
 <!-- badges: end -->
 
 # `r pkg` v`r pkg.version`

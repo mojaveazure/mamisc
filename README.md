@@ -5,6 +5,8 @@
 [![Lifecycle](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://github.com/mojaveazure/mamisc)
 [![CRAN
 Version](https://www.r-pkg.org/badges/version/mamisc)](https://cran.r-project.org/package=mamisc)
+[![R-universe status
+badge](https://mojaveazure.r-universe.dev/badges/mamisc)](https://mojaveazure.r-universe.dev)
 <!-- badges: end -->
 
 # mamisc v0.0.0.9000
