@@ -2,13 +2,14 @@
 #'
 NULL
 
-
 #' Hide Shiny Tabs with \pkg{ShinyJS}
 #'
 #' @inheritParams js_tab_key
 #' @param fxn Name of JavaScript call function
 #'
 #' @return A string with a JavaScript function to hide a set of tabs
+#'
+#' @export
 #'
 #' @note This function is designed to run custom JavaScript code using
 #' \code{\link[shinyjs:extendShinyJS]{shinyjs::extendShinyJS}()}; use of
@@ -40,6 +41,8 @@ js_tab_hide <- function(id, values, fxn = 'hide') {
 #' (see the \code{value} parameter)
 #'
 #' @return A string with the JavaScript ID for a given set of tabs
+#'
+#' @export
 #'
 #' @seealso \code{\link[shiny:tabsetPanel]{shiny::tabsetPanel}()}
 #' \code{\link[shiny:tabPanel]{shiny::tabPanel}()}

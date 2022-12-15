@@ -2,7 +2,6 @@
 #'
 NULL
 
-
 #' Rdocumentation Itemized List
 #'
 #' Generate an Rdocumentation itemized list

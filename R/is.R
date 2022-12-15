@@ -2,7 +2,6 @@
 #'
 NULL
 
-
 #' Is an Object a Data Frame
 #'
 #' @param x An object

@@ -2,7 +2,6 @@
 #'
 NULL
 
-
 #' Keyed Ordering Permutation
 #'
 #' @inheritParams base::order
