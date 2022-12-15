@@ -9,7 +9,7 @@ Version](https://www.r-pkg.org/badges/version/mamisc)](https://cran.r-project.or
 badge](https://mojaveazure.r-universe.dev/badges/mamisc)](https://mojaveazure.r-universe.dev)
 <!-- badges: end -->
 
-# mamisc v0.0.0.9000
+# mamisc v0.0.0.9001
 
 ### Miscellaneous Functions by Paul Hoffman
 
